@@ -1,0 +1,1 @@
+dizionario  = [{'nome':'Piero', 'Cognome': 'Crisci'},]
