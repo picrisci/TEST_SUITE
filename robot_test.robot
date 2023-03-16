@@ -20,6 +20,7 @@ Google Search
     FOR    ${ele}    IN    @{dizionario}
         log to console    ${ele}[Cognome]
     END
+    log to console    Pippo
 
 *** Keywords ***
 Get Dictionary Keys
