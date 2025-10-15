@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.0.2 (Python 3.8.2 on darwin)" generated="20230124 14:46:22.018" rpa="false" schemaversion="3">
-<suite id="s1" name="Robot Test" source="/Users/pierocrisci/PycharmProjects/TEST_SUITE/robot_test.robot">
-<test id="s1-t1" name="Google Search" line="18">
-<kw name="Get From Dictionary" library="Collections">
-<var>${value}</var>
-<arg>@{dizionario}</arg>
-<arg>Cognome</arg>
-<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
-<msg timestamp="20230124 14:46:22.405" level="INFO">${value} = Crisci</msg>
-<status status="PASS" starttime="20230124 14:46:22.404" endtime="20230124 14:46:22.405"/>
-</kw>
+<robot generator="Robot 6.0.2 (Python 3.8.2 on darwin)" generated="20230316 13:33:07.062" rpa="false" schemaversion="3">
+    <suite id="s1" name="Robot Test" source="/Users/pierocrisci/PycharmProjects/TEST_SUITE/robot_test.robot">
+        <test id="s1-t1" name="Google Search" line="18">
+            <kw name="Get From Dictionary" library="Collections">
+                <var>${value}</var>
+                <arg>@{dizionario}</arg>
+                <arg>Cognome</arg>
+                <doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+                <msg timestamp="20230316 13:33:09.601" level="INFO">${value} = Crisci</msg>
+                <status status="PASS" starttime="20230316 13:33:09.600" endtime="20230316 13:33:09.601"/>
+            </kw>
 <for flavor="IN">
 <var>${ele}</var>
 <value>@{dizionario}</value>
@@ -18,15 +18,15 @@
 <kw name="Log To Console" library="BuiltIn">
 <arg>${ele}[Cognome]</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230124 14:46:22.405" endtime="20230124 14:46:22.406"/>
+    <status status="PASS" starttime="20230316 13:33:09.601" endtime="20230316 13:33:09.602"/>
 </kw>
-<status status="PASS" starttime="20230124 14:46:22.405" endtime="20230124 14:46:22.406"/>
+    <status status="PASS" starttime="20230316 13:33:09.601" endtime="20230316 13:33:09.602"/>
 </iter>
-<status status="PASS" starttime="20230124 14:46:22.405" endtime="20230124 14:46:22.406"/>
+    <status status="PASS" starttime="20230316 13:33:09.601" endtime="20230316 13:33:09.602"/>
 </for>
-<status status="PASS" starttime="20230124 14:46:22.403" endtime="20230124 14:46:22.406"/>
+            <status status="PASS" starttime="20230316 13:33:09.599" endtime="20230316 13:33:09.602"/>
 </test>
-<status status="PASS" starttime="20230124 14:46:22.020" endtime="20230124 14:46:22.407"/>
+        <status status="PASS" starttime="20230316 13:33:07.065" endtime="20230316 13:33:09.603"/>
 </suite>
 <statistics>
 <total>
